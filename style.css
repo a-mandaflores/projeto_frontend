@@ -1,0 +1,462 @@
+body {
+    background-color: rgb(247, 214, 153);
+    font-family: Roboto, sans-serif;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 160, 51);
+    border-radius: 10px;
+    padding: none;
+    box-shadow: 3px 2px 2px rgb(155, 111, 29);
+}
+.infos {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    
+}
+.infos a{
+    background-color: #1a88d1;
+    padding: 0.5rem;
+    margin: 2px;
+    border-radius: 0.5rem;
+}
+
+.saiba_mais {
+    text-decoration: none;
+    color: rgb(255, 237, 203);
+    transition: 0.3s;
+}
+.sair {
+    text-decoration: none;
+    color: rgb(255, 237, 203);
+    transition: 0.3s;
+}
+
+.contatos {
+    text-decoration: none;
+    color: rgb(255, 237, 203);
+    transition: 0.3s;
+}
+.vacina {
+    text-decoration: none;
+    color: rgb(255, 237, 203);
+    transition: 0.3s;
+}
+.adopetlogo0 {
+    font-size: 25px;
+    color: rgb(255, 237, 203);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.adopetlogo0:hover {
+    color: rgb(97, 66, 8);
+
+}
+.pet1 {
+    display: flex;
+    padding-top: 15px;
+}
+.imgpet1 {
+    display: flex;
+    border: 5px solid rgb(219, 160, 51);
+    margin-bottom: none;
+}
+.txtpet1 {
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(190, 137, 37);
+}
+.pet2 {
+    display: flex;
+    padding-top: 15px;
+}
+.imgpet2 {
+    display: flex;
+    border: 5px solid rgb(219, 160, 51);
+}
+.txtpet2 {
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(190, 137, 37);
+}
+.pet3 {
+    display: flex;
+    padding-top: 15px;
+}
+.imgpet3 {
+    display: flex;
+    border: 5px solid rgb(219, 160, 51);
+}
+.txtpet3 {
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(190, 137, 37);
+}
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+.containercontatos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color:rgb(219, 160, 51);
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    color: rgb(255, 237, 203);
+    box-shadow: 3px 2px 2px rgb(155, 111, 29);
+}
+.contatos:hover {
+    background-color: #feeec4;
+    color: rgb(97, 66, 8);
+}
+.saiba_mais:hover {
+    background-color: #feeec4;
+    color: rgb(97, 66, 8);
+}
+.sair:hover {
+    background-color: #feeec4;
+    color: rgb(97, 66, 8);
+}
+.vacina:hover {
+    background-color: #feeec4;
+    color: rgb(97, 66, 8);
+}
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(247, 214, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(219, 160, 51);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px -12px #2c222256;
+}
+
+.left-login > h1 {
+    color: rgb(252, 241, 222);
+}
+
+.left-login > h2 {
+    color: rgb(252, 241, 222);
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(219, 160, 51);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px -12px #2c222256;
+}
+
+.card-login > h1 {
+    color: rgb(255, 237, 203);
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #eee9e9;
+    color: #0a0a0ade;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #0c0c0c65;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #0a0a0ade;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color: #4b505094;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(255, 237, 203);
+    background: #1a88d1;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #EDB320;
+    margin: auto;
+}
+
+.logo_sobre {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 214, 153);
+    border-radius: 10px;
+    padding: none;
+}
+
+.txt_sobre {
+    width: 50%;
+    margin: 50px auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(219, 160, 51);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px rgb(155, 111, 29);
+}
+
+.adptt {
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    text-decoration: none;
+    transition: 0.3s;
+    border-bottom: none;
+}
+
+.adptt:hover {
+    color: rgb(97, 66, 8);
+}
+.titulodes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: none;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgtyler{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.imgbelinha{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.imghannah{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.adopetlogo0 {
+    font-size: 25px;
+    color: rgb(255, 237, 203);
+    text-decoration: none;
+}
+.adopetlogo0:hover{
+    color: rgb(167, 120, 34);
+}
+.descpet{
+    background-color:  rgb(219, 160, 51);
+    max-width: 505px;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.txttyler{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 5px;
+    color:  rgb(95, 92, 90);
+}
+.txtbelinha{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 5px;
+    color:  rgb(95, 92, 90);
+}
+.txthannah{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 5px;
+    color:  rgb(95, 92, 90);
+}
+.pet-info{
+    color: rgb(95, 92, 90);
+    font-size: 16px;
+}
+.city{
+    color: black;
+}
+.desc{
+line-height: 20px;
+color: black;
+}
+.saud1, .saud2, .saud3{
+    line-height: 20px;
+    color: black;
+}
+.chat{    
+    border-radius: 8px;
+
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;  
+    justify-content: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 100px auto; 
+   
+}
+
+.header {
+    border-radius: 8px 8px 0px 0px;
+    background-color: #EDB320;
+    padding: 1.5rem;
+}
+.body {
+    background-color: #feeec4;
+    padding: 10rem;
+}
+.footer{
+    display: flex;
+
+   
+}
+.text-chat {
+    
+    width: 260px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 0px 0px 0px 8px;
+    resize: none;
+    width: 260px;
+
+}
+.text-button {
+    width: 60px;
+    height: 54px;
+    background-color: #e0a204;
+    border: none;
+    outline: none;
+    border-radius: 0px 0px 8px 0px;
+}
+.chat {
+    margin-top: 800px;
+    background-color: #1a88d1;
+}
+
+.adote {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1a88d1;
+    transition: 0.3s;
+}
+.adote:hover {
+    background-color: #feeec4;
+}
+.adotelink {
+    text-decoration: none;
+    font-size: 18px;
+    color: #feeec4;
+    transition: 0.3s;
+}
+.adotelink:hover {
+    color: rgb(167, 120, 34);
+}
+
+.header{
+    display: flex;
+    height: auto;
+    align-items: center;
+
+}
+.img-chat{
+    max-width: 50px; 
+    max-height: auto;
+    width: auto;
+    height: auto;
+}
+.name{
+    color: #feeec4;
+    width: 5rem;
+    
+
+}
+
+.cuidados {
+    font-size: 80%;
+    font-weight: 700;
+    background-color: #1a88d1;
+    color: #feeec4;
+    padding: 0.5rem;
+    margin: 2px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cuidados:hover {
+    background-color: #feeec4;
+    color: rgb(97, 66, 8);
+}
